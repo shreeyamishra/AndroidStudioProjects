@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BigApp1</string>
+    <string name="instructions_on_start">Enter names of player 1 and 2. Tap image to change player image.</string>
+    <string name="item1">reset</string>
+    <string name="item2">1 second</string>
+    <string name="item3">2 second</string>
+    <string name="item4">5 second</string>
+    <string name="item5">10 second</string>
+    <string name="title_activity_big_app1__main_activity__after_start">
+        BigApp1_MainActivity_AfterStart
+    </string>
+</resources>

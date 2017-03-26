@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/listview_background_shape">
+<stroke android:width="@dimen/generic_object_padding" android:color="#ff207d94" />
+    <size android:height="@dimen/name_text_box_height" android:width="@dimen/name_text_box_height"/>
+<padding android:left="2dp"
+    android:top="2dp"
+    android:right="2dp"
+    android:bottom="2dp" />
+<corners android:radius="20dp" />
+<solid android:color="#A9A9A9" />
+</shape>

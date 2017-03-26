@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MiniApp10</string>
+    <string name="subject_1">The man</string>
+    <string name="subject_2">The kid</string>
+    <string name="subject_3">The plug</string>
+    <string name="subject_4">twice</string>
+    <string name="verb_1">Ran</string>
+    <string name="verb_2">off</string>
+    <string name="verb_3">said</string>
+    <string name="verb_4">shocked</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MiniApp1</string>
+    <string name="action_InButton">MiniApp_MainActivityInButton</string>
+    <string name="button_press">Press</string>
+    <string name="activity_name">Hello World in the Button</string>
+    <string name="buzz_action">Buzz</string>
+    <string name="popup_action">Popup</string>
+    <string name="press_to_buzz">Dont push other buttons. this will buzz</string>
+    <string name="press_to_toast">please press this to toast</string>
+</resources>

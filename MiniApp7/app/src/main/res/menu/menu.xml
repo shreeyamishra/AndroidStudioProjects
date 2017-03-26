@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:title="@string/item1">
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:title="@string/item2">
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:title="@string/item3">
+
+        <menu android:id="@+id/pokemon">
+            <item android:id="@+id/pikachu"
+                android:title="Pikachu"
+                android:checkable="true"
+                android:checked="true">
+            </item>
+            <item android:id="@+id/squirtle"
+                android:title="Squirtle"
+                android:checkable="true"
+                android:checked="true">
+            </item>
+            <item android:id="@+id/charmander"
+                android:title="Charmander"
+                android:checkable="true"
+                android:checked="true">
+            </item>
+            <item android:id="@+id/ditto"
+                android:title="Ditto"
+                android:checkable="true"
+                android:checked="true">
+            </item>
+        </menu>
+    </item>
+
+</menu>

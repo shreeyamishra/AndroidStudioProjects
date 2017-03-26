@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/material_grey_900"
+    tools:context="edu.miami.c11926684.miniapp4.MiniApp4_MainActivity_StatusBar">
+    
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_vertical"
+        android:max="@integer/bar_max_time"/>
+
+</RelativeLayout>

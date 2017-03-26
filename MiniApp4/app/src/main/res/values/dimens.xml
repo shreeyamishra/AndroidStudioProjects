@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="standard_button_vertical">36dp</dimen>
+    <dimen name="standard_button_horizontal">88dp</dimen>
+    <dimen name="standard_corner_radius">2dp</dimen>
+    <dimen name="status_bar_vertical">18dp</dimen>
+
+    <integer name="max_score">5</integer>
+    <integer name="bar_max_time">5000</integer>
+    <integer name="bar_decrement_time">50</integer>
+</resources>

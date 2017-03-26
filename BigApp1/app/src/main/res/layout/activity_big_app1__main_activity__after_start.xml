@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="edu.miami.c11926684.bigapp1.BigApp1_MainActivity_AfterStart">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar" />
+
+    <LinearLayout
+        android:id="@+id/first_user_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/first_user_layout_name"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/name_text_box_height"
+            android:layout_weight="60"
+            android:textSize="@dimen/name_size"
+            android:maxLines="1"
+            />
+        <ImageView
+            android:id="@+id/first_user_layout_image"
+            android:layout_width="@dimen/name_text_box_height"
+            android:layout_height="@dimen/name_text_box_height" />
+    </LinearLayout>
+    <RatingBar
+        android:id="@+id/first_rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_user_layout"
+        android:layout_centerHorizontal="true"
+        android:numStars="5"
+        android:isIndicator="true"/>
+
+    <LinearLayout
+        android:id="@+id/second_user_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/first_rating_bar">
+
+        <TextView
+            android:id="@+id/second_user_layout_name"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/name_text_box_height"
+            android:layout_weight="60"
+            android:textSize="@dimen/name_size"
+            android:maxLines="1"
+            />
+        <ImageView
+            android:id="@+id/second_user_layout_image"
+            android:layout_width="@dimen/name_text_box_height"
+            android:layout_height="@dimen/name_text_box_height" />
+    </LinearLayout>
+    <RatingBar
+        android:id="@+id/second_rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second_user_layout"
+        android:layout_centerHorizontal="true"
+        android:numStars="5"
+        android:isIndicator="true"/>
+
+    <Button
+        android:id="@+id/enter_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second_rating_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/enter_game_button_margin"
+        android:onClick="myClickHandler"
+        android:text="Play"/>
+
+
+
+</RelativeLayout>
